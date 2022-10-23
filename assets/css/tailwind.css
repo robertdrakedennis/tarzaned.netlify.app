@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: 'Beaufort';
+  font-weight: 700;
+  src: url("../fonts/Beaufort-Bold.woff2") format("woff2"),
+  url("../fonts/Beaufort-Bold.woff") format("woff");
+}
+
+
+body:not(.scrollable) {
+  overflow: hidden;
+}
